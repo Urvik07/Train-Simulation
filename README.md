@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+The goal is to design a train simulation workflow using Node.js and NestJS. This involves creating a train model with various components, such as the engine and coaches, which may include a pantry car with different configurations. The train simulation will demonstrate actions like starting and stopping the train and will expose API endpoints to interact with the train components.
 
 ## Installation
 
@@ -40,9 +40,6 @@ $ npm run start
 
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
 ## Test
@@ -53,21 +50,4 @@ $ npm run test
 
 # e2e tests
 $ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
