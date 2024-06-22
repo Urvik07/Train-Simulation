@@ -1,0 +1,35 @@
+{
+    "1": {
+      "start_role": ["None"],
+      "present_role": "BA",
+      "next_role": ["B"]
+    },
+    "2": {
+      "start_role": ["BA"],
+      "present_role": "B",
+      "next_role": ["BA"]
+    },
+    "3": {
+      "start_role": ["BA"],
+      "present_role": "SA",
+      "next_role": ["S"]
+    },
+    "4": {
+      "start_role": ["SA"],
+      "present_role": "S",
+      "next_role": ["SA", "S"]
+    },
+    "5": {
+      "start_role": ["S", "SA"],
+      "action_by": ["S", "SA"],
+      "present_role": "STY",
+      "next_role": ["None"]
+    },
+    "6": {
+      "start_role": ["S", "SA"],
+      "action_by": ["B", "BA"],
+      "present_role": "BTY",
+      "next_role": ["None"]
+    }
+  }
+  
